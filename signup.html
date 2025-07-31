@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <title>Sign Up - MNHS SHS Enrollment</title>
+      <style>
+          body {
+                font-family: Arial;
+                      background: #f0fff0;
+                            padding: 40px;
+                                }
+                                    .container {
+                                          background: white;
+                                                padding: 20px;
+                                                      max-width: 500px;
+                                                            margin: auto;
+                                                                  border-radius: 10px;
+                                                                        box-shadow: 0 0 10px #ccc;
+                                                                            }
+                                                                                h2 {
+                                                                                      text-align: center;
+                                                                                          }
+                                                                                              input, select {
+                                                                                                    width: 100%;
+                                                                                                          padding: 10px;
+                                                                                                                margin: 10px 0;
+                                                                                                                      border: 1px solid #aaa;
+                                                                                                                            border-radius: 5px;
+                                                                                                                                }
+                                                                                                                                    button {
+                                                                                                                                          width: 100%;
+                                                                                                                                                padding: 10px;
+                                                                                                                                                      background: #28a745;
+                                                                                                                                                            color: white;
+                                                                                                                                                                  border: none;
+                                                                                                                                                                        border-radius: 5px;
+                                                                                                                                                                            }
+                                                                                                                                                                                a {
+                                                                                                                                                                                      display: block;
+                                                                                                                                                                                            text-align: center;
+                                                                                                                                                                                                  margin-top: 10px;
+                                                                                                                                                                                                      }
+                                                                                                                                                                                                        </style>
+                                                                                                                                                                                                        </head>
+                                                                                                                                                                                                        <body>
+                                                                                                                                                                                                          <div class="container">
+                                                                                                                                                                                                              <h2>Sign Up</h2>
+                                                                                                                                                                                                                  <form action="backend/signup.php" method="POST">
+                                                                                                                                                                                                                        <input type="text" name="lrn" placeholder="LRN" required>
+                                                                                                                                                                                                                              <input type="text" name="lastname" placeholder="Last Name" required>
+                                                                                                                                                                                                                                    <input type="text" name="firstname" placeholder="First Name" required>
+                                                                                                                                                                                                                                          <input type="text" name="middlename" placeholder="Middle Name">
+                                                                                                                                                                                                                                                <input type="date" name="birthdate" required>
+                                                                                                                                                                                                                                                      <select name="strand" required>
+                                                                                                                                                                                                                                                              <option value="">Select Strand</option>
+                                                                                                                                                                                                                                                                      <option value="ICT">ICT</option>
+                                                                                                                                                                                                                                                                              <option value="Cookery">Cookery</option>
+                                                                                                                                                                                                                                                                                      <option value="EIM">EIM</option>
+                                                                                                                                                                                                                                                                                              <option value="ABM">ABM</option>
+                                                                                                                                                                                                                                                                                                      <option value="HUMSS">HUMSS</option>
+                                                                                                                                                                                                                                                                                                            </select>
+                                                                                                                                                                                                                                                                                                                  <input type="text" name="mother_name" placeholder="Mother's Name" required>
+                                                                                                                                                                                                                                                                                                                        <input type="password" name="password" placeholder="Create Password" required>
+                                                                                                                                                                                                                                                                                                                              <button type="submit">Register</button>
+                                                                                                                                                                                                                                                                                                                                  </form>
+                                                                                                                                                                                                                                                                                                                                      <a href="login.html">Already have an account? Log in</a>
+                                                                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                                                                        </body>
+                                                                                                                                                                                                                                                                                                                                        </html>
+                                                                                                                                                                                                                                                                                                                                        
